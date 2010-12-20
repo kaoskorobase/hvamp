@@ -1,0 +1,41 @@
+Name:                   hvamp
+Version:                0.1.0
+License:                LGPL-3
+License-File:           LICENSE
+Copyright:              Stefan Kersten, 2007-2010
+Author:                 Stefan Kersten
+Maintainer:             Stefan Kersten <sk@k-hornz.de>
+Stability:              Experimental
+Homepage:               http://space.k-hornz.de/software/hvamp
+Bug-Reports:            http://github.com/kaoskorobase/hvamp/issues
+Synopsis:               Haskell bindings for the VAMP plugin API
+Description:            Haskell bindings for the VAMP plugin API.
+                        <http://vamp-plugins.org>
+Tested-With:            GHC
+
+Build-Type:             Simple
+Build-Depends:          array
+                      , base >= 3 && < 5
+                      , bindings-vamp
+                      , directory
+                      , filepath
+                      , regex-compat
+                      , storable-complex
+                      , unix
+                      , vector
+Exposed-Modules:
+                        Sound.Analysis.Vamp
+                        Sound.Analysis.Vamp.ApiVersion
+                        Sound.Analysis.Vamp.DynamicLinker
+                        Sound.Analysis.Vamp.DynamicLinker.Posix
+                        Sound.Analysis.Vamp.Feature
+                        Sound.Analysis.Vamp.Path
+                        Sound.Analysis.Vamp.Plugin
+                        Sound.Analysis.Vamp.OutputDescriptor
+                        Sound.Analysis.Vamp.ParameterDescriptor
+                        Sound.Analysis.Vamp.PluginDescriptor
+                        Sound.Analysis.Vamp.TimeStamp
+                        Sound.Analysis.Vamp.Types
+Other-Modules:
+                        Sound.Analysis.Vamp.PluginDescriptor.Handle
+Ghc-Options:            -Wall
