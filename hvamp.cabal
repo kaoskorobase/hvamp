@@ -7,7 +7,7 @@ Author:                 Stefan Kersten
 Maintainer:             Stefan Kersten <sk@k-hornz.de>
 Stability:              Experimental
 Homepage:               http://space.k-hornz.de/software/hvamp
-Bug-Reports:            http://github.com/kaoskorobase/hvamp/issues
+Bug-Reports:            https://github.com/kaoskorobase/hvamp/issues
 Synopsis:               Haskell bindings for the VAMP plugin API
 Description:            Haskell bindings for the VAMP plugin API.
                         <http://vamp-plugins.org>
